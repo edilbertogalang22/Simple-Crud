@@ -133,9 +133,9 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=
-DB_PORT=3306
+DB_PORT=3306 # default MySQL port, change it if your port is not 3306
 DB_NAME=ums_db
-JWT_SECRET=secret12345
+JWT_SECRET=your_secretkey
 ```
 
 ---
