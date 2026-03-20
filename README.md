@@ -9,37 +9,37 @@ This project allows user authentication, management, and secure data handling us
 
 ### 📝 Register User
 
-![Register](./screenshots/Register.jpg)
+![Register](./frontend/screenshots/Register.jpg)
 
 ### 🔐 Login Page
 
-![Login](./screenshots/login.jpg)
+![Login](./frontend/screenshots/login.jpg)
 
 ### 📊 Dashboard
 
-![Dashboard](./screenshots/AdminDashboard.jpg)
+![Dashboard](./frontend/screenshots/AdminDashboard.jpg)
 
 ### 📋 Admin Users Table
 
-![Table Page](./screenshots/LandingPage.jpg)
+![Table Page](./frontend/screenshots/LandingPage.jpg)
 
 ## 🔄 CRUD Operations
 
 ### ➕ Add User Modal
 
-![Create User](./screenshots/AddingUserModal.jpg)
+![Create User](./frontend/screenshots/AddingUserModal.jpg)
 
 ### ➕ View User Modal
 
-![Read User](./screenshots/ViewUserModal.jpg)
+![Read User](./frontend/screenshots/ViewUserModal.jpg)
 
 ### ➕ Update User Modal
 
-![Update User](./screenshots/UpdateUserModal.jpg)
+![Update User](./frontend/screenshots/UpdateUserModal.jpg)
 
 ### ➕ Delete User Modal
 
-![Delete User](./screenshots/DeleteUserModal.jpg)
+![Delete User](./frontend/screenshots/DeleteUserModal.jpg)
 
 ---
 
