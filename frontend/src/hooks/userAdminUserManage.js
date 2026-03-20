@@ -5,6 +5,7 @@ const useAdminUserManage = () => {
   const [users, setUsers] = useState([]);
   const [search, setSearch] = useState("");
 
+  // Fetch users
   const fetchUsers = async () => {
     try {
       const response = await api.get("/auth/manage-users");
@@ -18,10 +19,12 @@ const useAdminUserManage = () => {
     fetchUsers();
   }, []);
 
+  // Handle search
   const handleSearchChange = (e) => {
     setSearch(e.target.value);
   };
 
+  // Filter users
   const filteredUsers = users.filter(
     (user) =>
       user.fullname.toLowerCase().includes(search.toLowerCase()) ||
@@ -54,6 +57,7 @@ const useAdminUserManage = () => {
     return newUser;
   };
 
+  // Delete user
   const deleteUser = async (id) => {
     try {
       await api.delete(`/auth/delete-user/${id}`);
@@ -70,7 +74,7 @@ const useAdminUserManage = () => {
     updateUser,
     createUser,
     deleteUser,
-    fetchUsers, // 🔥 optional (for refetch)
+    fetchUsers, // optional (for refetch)
   };
 };
 

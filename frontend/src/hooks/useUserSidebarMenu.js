@@ -1,13 +1,6 @@
 import { useState } from "react";
 import {
   FaHome,
-  FaBook,
-  FaClipboardList,
-  FaChartLine,
-  FaUserGraduate,
-  FaCode,
-  FaFolderOpen,
-  FaComments,
   FaCog,
   FaSignOutAlt,
 } from "react-icons/fa";
