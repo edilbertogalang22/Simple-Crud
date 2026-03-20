@@ -13,7 +13,7 @@ This project allows user authentication, management, and secure data handling us
 
 ### 🔐 Login Page
 
-![Login](./frontend/screenshots/login.jpg)
+![Login](./frontend/screenshots/Login.jpg)
 
 ### 📊 Dashboard
 
