@@ -1,4 +1,4 @@
-# 🚀 Users Management System (USM)
+# 🚀 Users Management System (UMS)
 
 A full-stack Users Management System built using modern web technologies.
 This project allows user authentication, management, and secure data handling using JWT and password hashing.
